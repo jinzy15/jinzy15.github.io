@@ -1,5 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-19T21:00:10+08:00</updated><id>http://localhost:4000/</id><title type="html">What a life</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2017/04/18/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-04-18T17:23:01+08:00</published><updated>2017-04-18T17:23:01+08:00</updated><id>http://localhost:4000/jekyll/update/2017/04/18/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/04/18/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-19T23:53:38+08:00</updated><id>http://localhost:4000/</id><title type="html">What a life</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle><entry><title type="html">Readbook_ml</title><link href="http://localhost:4000/2017/04/19/readbook_ml.html" rel="alternate" type="text/html" title="Readbook_ml" /><published>2017-04-19T00:00:00+08:00</published><updated>2017-04-19T00:00:00+08:00</updated><id>http://localhost:4000/2017/04/19/readbook_ml</id><content type="html" xml:base="http://localhost:4000/2017/04/19/readbook_ml.html">&lt;h1 id=&quot;机器学习周志华一&quot;&gt;《机器学习》周志华（一）&lt;/h1&gt;
+&lt;p&gt;#阅读与写作&lt;/p&gt;
+&lt;h3 id=&quot;机器学习的定义&quot;&gt;机器学习的定义&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;对于一件需要干的事 ，根据某些经验和一些学习算法。产生一些模型机器学习是一门研究“学习算法”的学问。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;一些术语&quot;&gt;一些术语&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* 对于**数据集**（经验：需要从中获得信息）。我们把各方面的信息看成数据的**属性**。属性的多少看成一个数据的**维度**。并把一个数据看成一个**样本**
+* 把预测离散值的问题叫做**分类**，把预测连续值的问题看作是**回归**。
+* 	把有标记信息的看成是有监督学习，把没有标记的看做无监督学习
+	1. ex:如回归和分类都是典型监督学习，聚类为无监督学习
+	2. 比如有答案的学习为监督学习，没答案的学习则为无监督学习
+* 泛化能力为预测整个样本的能力，只在训练集效果好，在测试集效果不好，可以理解为过拟合。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;预测一个西瓜是不是好瓜的例子&quot;&gt;预测一个西瓜是不是好瓜的例子&lt;/h3&gt;
+&lt;p&gt;引出归纳偏好的例子：对于很多可以选择划分的样本属性，如何选择归纳偏好，选择什么样的学习模型就显得十分重要。
+比如一个好瓜到底是色泽更重要还是声音重要，都会使得最后的预测结果不同。&lt;/p&gt;
+
+&lt;h3 id=&quot;nfl定理&quot;&gt;NFL定理&lt;/h3&gt;
+&lt;p&gt;no free lunch对于一个泛化的问题。那么学习期望的算法都是一样的。
+证明？？
+但是对于我们拿来讨论的问题来说不会出现这种情况。因为我们都是讨论一些具体的问题
+所以这个定理告诉我们对于机器学习要做到具体问题具体分析。&lt;/p&gt;</content><author><name></name></author><summary type="html">《机器学习》周志华（一） #阅读与写作 机器学习的定义 对于一件需要干的事 ，根据某些经验和一些学习算法。产生一些模型机器学习是一门研究“学习算法”的学问。</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2017/04/18/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-04-18T17:23:01+08:00</published><updated>2017-04-18T17:23:01+08:00</updated><id>http://localhost:4000/jekyll/update/2017/04/18/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/04/18/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
